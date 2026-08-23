@@ -15,6 +15,6 @@ let selection = 'name'; //this is a dynamic way to access object properties
 
 person.name = 'John'; //change object.name to John
 
-person[selection] = 'Moug'; //change object.age to 21
+person[selection] = 'Moug'; //change object[selection] to 'Moug'
 
 console.log(person);
