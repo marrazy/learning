@@ -9,7 +9,7 @@ body {
     font-family: 16px;
     line-height: 1.5;
     color:#333;
-    background: #a1c3ff;
+    background: #f0f0f0;
 }
 
 img {
@@ -111,6 +111,17 @@ ul {
 }
 
 .boxes .container {
+    margin-top: 30px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.boxes ul {
+    display: flex;
+}
+
+.boxes ul li {
+    margin-left: 50px;
 }
