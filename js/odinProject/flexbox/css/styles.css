@@ -112,6 +112,7 @@ ul {
 
 .boxes .container {
     margin-top: 30px;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -124,4 +125,29 @@ ul {
 
 .boxes ul li {
     margin-left: 50px;
+}
+
+.quote {
+    background-color: #d3d3d3;
+    min-height: 400px;
+}
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.quote h1 {
+    margin-top: 100px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote .attribution {
+    align-self: flex-end;  
+    margin-top: 1rem;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
 }
