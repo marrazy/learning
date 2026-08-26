@@ -150,4 +150,58 @@ ul {
     font-size: 24px;
     font-weight: 500;
     font-style: normal;
+    font-weight: bold;
+}
+
+.signUp {
+    padding: 100px 0;
+}
+
+.signupbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 40px 100px;
+    color: #fff;
+}
+
+.signup-text h3 {
+    margin: 0 0 4px;
+    font-size: 1.1rem;
+}
+
+.signup-text p {
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+.signup-btn {
+    flex-shrink: 0;
+
+    border: 2px solid #fff;
+    border-radius: 8px;
+    padding: 8px 32px;
+    color: #fff;
+    text-decoration: none;
+    background: transparent;
+}
+
+.footer {
+    background: #1F2937;
+    color: #fff;
+    height: 60px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.footer p {
+    text-align: center;
 }
