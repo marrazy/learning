@@ -74,3 +74,37 @@ box.append(boxTitle)
 box.append(boxPara)
 
 container.append(box)
+
+
+// Button DOM Manipulation
+// Arrow methods are lowk useless and instead you should make a function for it
+
+/*
+const btn = document.querySelector("#btn")
+
+btn.onclick = () => alert("Hello world!")
+
+const btn3 = document.querySelector("#btn3")
+btn3.addEventListener("click", () => {
+  alert("Hello World");
+});
+
+*/
+
+// Using functions
+function alertMe() {
+    alert("Clicked! JS Worked")
+}
+
+const btn = document.querySelector("#btn")
+btn.onclick = alertMe // WAY EASIER
+
+
+const btn3 = document.querySelector("#btn3")
+btn3.addEventListener("click", alertMe)
+
+const buttons = document.querySelectorAll("button");
+
+buttons.forEach(function (button) {
+    button.addEventListener("click", alertMe)
+})
